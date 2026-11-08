@@ -1,0 +1,28 @@
+name: sehat_bersama
+description: Sehat Bersama Smart Village - pencarian lokasi fasilitas kesehatan dengan LBS dan Geofencing.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  flutter_local_notifications: ^17.2.4
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
